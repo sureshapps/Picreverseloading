@@ -1,152 +1,165 @@
-
 <html lang="en">
- 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PicReverse.Com - Universal Reverse Image Search Engine</title>
-    <meta name="description" content="Find anything with reverse image search. Search across Google, Yandex, Bing, and TinEye to discover similar images, find sources, and identify objects instantly." />
-    <meta name="author" content="PicReverse.Com" />
-    <meta name="keywords" content="reverse image search, image search engine, find similar images, image recognition, visual search" />
- 
-    <meta property="og:title" content="PicReverse.Com - Universal Reverse Image Search Engine" />
-    <meta property="og:description" content="Search across multiple engines to find similar images and sources instantly" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://revimage.netlify.app/revimg.ico" />
- 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@sureshksmy" />
-    <meta name="twitter:image" content="https://revimage.netlify.app/revimg.ico" />
-    <link rel="icon" type="image/png" sizes="16x16" href="https://revimage.netlify.app/revicon.png">
- 
-    <link rel="icon" type="image/png" sizes="32x32" href="https://revimage.netlify.app/revicon.png">
- 
-    <link rel="icon" type="image/png" sizes="16x16" href="https://revimage.netlify.app/revicon.png">
- 
-    <link rel="manifest" href="https://revimage.netlify.app/manifest.json">
- 
-    <meta name="theme-color" content="#8B3DFF">
- 
-    <meta name="apple-mobile-web-app-capable" content="yes">
- 
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
- 
-    <meta name="apple-mobile-web-app-title" content="PicRev">
- 
-    <link rel="apple-touch-icon" href="https://revimage.netlify.app/revicon.png">
- 
-    <meta name="msapplication-TileImage" content="https://revimage.netlify.app/revicon.png">
- 
-    <meta name="msapplication-TileColor" content="#ffffff">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PicReverse.Com - Universal Reverse Image Search Engine</title>
+  <meta name="description" content="Find anything with reverse image search. Search across Google, Yandex, Bing, and TinEye to discover similar images, find sources, and identify objects instantly." />
+  <meta name="author" content="PicReverse.Com" />
+  <meta name="keywords" content="reverse image search, image search engine, find similar images, image recognition, visual search" />
+
+  <meta property="og:title" content="PicReverse.Com - Universal Reverse Image Search Engine" />
+  <meta property="og:description" content="Search across multiple engines to find similar images and sources instantly" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://revimage.netlify.app/revimg.ico" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@sureshksmy" />
+  <meta name="twitter:image" content="https://revimage.netlify.app/revimg.ico" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="https://revimage.netlify.app/revicon.png">
+  <link rel="manifest" href="https://revimage.netlify.app/manifest.json">
+  <meta name="theme-color" content="#8B3DFF">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="PicRev">
+  <link rel="apple-touch-icon" href="https://revimage.netlify.app/revicon.png">
+  <meta name="msapplication-TileImage" content="https://revimage.netlify.app/revicon.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+
 
 <style>
-
-$green: #8B3DFF;
-$gray-light: #eef1f3;
-
-
-$bar-size: 5px;
-$bar-radius: 60px;
-$bar-bg: rgba(0,0,0,0.075);
-
 body {
-  background: #fff0ff;
+  background: #eef1f3;
+background-image: url('https://sureshapps.github.io/Picreverseloading/88844.jpg');
+ background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
 }
 
-
+@-webkit-keyframes loader {
+  0% {
+    width: 0;
+  }
+  20% {
+    width: 10%;
+  }
+  25% {
+    width: 24%;
+  }
+  43% {
+    width: 41%;
+  }
+  56% {
+    width: 50%;
+  }
+  66% {
+    width: 52%;
+  }
+  71% {
+    width: 60%;
+  }
+  75% {
+    width: 76%;
+  }
+  94% {
+    width: 86%;
+  }
+  100% {
+    width: 100%;
+  }
+}
 
 @keyframes loader {
-
-	0% {
-		width: 0;
-	}
-
-	20% {
-		width: 10%;
-	}
-
-	25% {
-		width: 24%;
-	}
-
-	43% {
-		width: 41%;
-	}
-
-	56% {
-		width: 50%;
-	}
-
-	66% {
-		width: 52%;
-	}
-
-	71% {
-		width: 60%;
-	}
-
-	75% {
-		width: 76%;
-    
-	}
-
-	94% {
-		width: 86%;
-	}
-
-	100% {
-		width: 100%;
-	}
-
+  0% {
+    width: 0;
+  }
+  20% {
+    width: 10%;
+  }
+  25% {
+    width: 24%;
+  }
+  43% {
+    width: 41%;
+  }
+  56% {
+    width: 50%;
+  }
+  66% {
+    width: 52%;
+  }
+  71% {
+    width: 60%;
+  }
+  75% {
+    width: 76%;
+  }
+  94% {
+    width: 86%;
+  }
+  100% {
+    width: 100%;
+  }
 }
-
-
 .progress-bar {
-	border-radius: $bar-radius;
-	overflow: hidden;
+  border-radius: 60px;
+  overflow: hidden;
   width: 100%;
-
-	span {
-		display: block;
-	}
-
+}
+.progress-bar span {
+  display: block;
 }
 
 .bar {
-  background: $bar-bg;
+  background: rgba(0, 0, 0, 0.075);
 }
 
 .progress {
-  animation: loader 8s ease infinite;
-
-  background: $green;
+  -webkit-animation: loader 8s ease infinite;
+          animation: loader 8s ease infinite;
+  background: #ff0fff;
   color: #fff;
-  padding: $bar-size;
+  padding: 5px;
   width: 0;
 }
-
-
 
 .progress-bar {
   left: 50%;
   max-width: 50%;
   position: absolute;
-  top: 50%;
-  transform: translate3d(-50%,-50%,0);
+  top: 60%;
+  transform: translate3d(-50%, -50%, 0);
 }
-</style>
-</head>
-<body>
-</br>
 
-<center><img src="https://search.picreverse.com/revicon2.png" alt="Reverse Image Search" width="200" height="200">
-  
-  
-</center>
-<div class="progress-bar">
+.imar {
+  right: 25%;
+  position: absolute;
+  bottom: 40%;
+
+    }
+  </style>
+  </head>
+    
+  <body>
+
+  <div class="imar">
+<img src="https://search.picreverse.com/revicon2.png" alt="Reverse Image Search" width="200" height="200"></div>
+
+  <div class="progress-bar">
   <span class="bar">
     <span class="progress"></span>
   </span>
 </div>
-</body>
+ <script>
+
+      setTimeout(() => {
+        window.location.href = "https://search.picreverse.com";
+      }, 10000); 
+
+  </script>
+
+  </body>
+  
 </html>
